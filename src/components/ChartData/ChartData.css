@@ -1,0 +1,51 @@
+.chart {
+  position: relative;
+}
+
+.chart svg {
+  vertical-align: middle;
+}
+
+.chart-actions {
+  display: none;
+}
+
+/* Only display the actions when expanded */
+.expanded .chart-actions {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.chart-actions button {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 6px;
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  outline: none;
+}
+
+.chart-actions button:hover,
+.chart-actions button:focus {
+  border: 1px solid var(--white);
+}
+
+.chart-actions .active {
+  background: var(--white);
+  color: var(--blue);
+}
+
+.loading-container {
+  height: 0;
+  padding-bottom: 50%;
+  width: 100%;
+}
+
+.loading-container span {
+  position: absolute;
+  left: 50%;
+  margin-left: -35px;
+  top: 30%;
+}
