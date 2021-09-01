@@ -12,8 +12,9 @@
   text-align: center;
   color: var(--white);
   margin: auto;
+  margin-top: 100px;
   max-width: 300px;
-  background: linear-gradient(135deg, #2bb1ff 0%, var(--blue) 100%);
+  background: linear-gradient(135deg, #14213d 0%, var(--blue) 100%);
   border-radius: var(--border-radius);
   position: relative;
   transition: transform 0.5s ease, box-shadow 0.5s ease;

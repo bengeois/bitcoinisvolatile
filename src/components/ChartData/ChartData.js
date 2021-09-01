@@ -42,8 +42,6 @@ const ChartData = ({ cryptoName, isExpanded }) => {
       }))
   });
 
-  console.log(isLoading, data);
-
   return (
     <div className="chart">
       <div className="chart-actions">

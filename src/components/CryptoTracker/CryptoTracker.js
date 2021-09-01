@@ -23,8 +23,6 @@ const CryptoTracker = ({ cryptoName }) => {
     }
   };
 
-  console.log(data, isLoading);
-
   return (
     <div className={`card ${isExpanded ? 'expanded' : 'collapsed'}`}>
       {!isExpanded && <button onClick={onCardClick} className="hitzone" />}

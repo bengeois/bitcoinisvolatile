@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
 }
 
 code {
@@ -13,7 +14,8 @@ code {
 }
 
 :root {
-  --blue: #1855ff;
+  --primary: #e5e5e5;
+  --blue: #14213d;
   --white: #fff;
   --green: #41e041;
   --red: #ff5b5b;
