@@ -1,4 +1,4 @@
-# Bitcoin is volatile
+# Bitcoin is volatile ![bitcoin](https://github.com/coinwink/cryptocurrency-logos/blob/master/coins/16x16/1.png)
 
 In a episode of HBO’s Silicon Valley, Gilfoyle (Martin Starr) reveals that he mines bitcoin as a side gig — but only when the price is above a certain value. He creates an alert that plays the 1.36 second death metal song “You Suffer” by Napalm Death whenever bitcoin rises or drops so he can remote toggle his rig at home. Given the volatility of bitcoin and the volume of the song, this quickly becomes annoying and becomes a recurring theme throughout the episode.
 
