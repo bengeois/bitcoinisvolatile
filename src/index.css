@@ -14,7 +14,7 @@ code {
 }
 
 :root {
-  --primary: #e5e5e5;
+  --primary: #14213d;
   --blue: #14213d;
   --white: #fff;
   --green: #41e041;
@@ -22,8 +22,19 @@ code {
   --border-radius: 8px;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
 }
