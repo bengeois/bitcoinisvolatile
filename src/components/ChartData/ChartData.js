@@ -1,4 +1,3 @@
-import format from 'date-fns/format';
 import React, { useState } from 'react';
 import {
   VictoryAxis,
@@ -10,6 +9,7 @@ import {
 import useGetChartData from '../../hooks/usGetChartData';
 import { formatPrice } from '../../utils/formatPrice';
 import './ChartData.css';
+import { format } from 'date-fns';
 
 const intervals = [
   {
