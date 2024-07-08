@@ -12,7 +12,7 @@
     "react-helmet": "^6.1.0",
     "react-query": "^3.39.3",
     "react-scripts": "5.0.1",
-    "use-sound": "^4.0.1",
+    "use-sound": "^4.0.3",
     "victory": "^37.0.2",
     "web-vitals": "^4.2.1"
   },
